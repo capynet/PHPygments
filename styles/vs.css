@@ -1,0 +1,34 @@
+.highlighted-source.vs .hll { background-color: #ffffcc }
+.highlighted-source.vs  { background: #ffffff; }
+.highlighted-source.vs .c { color: #008000 } /* Comment */
+.highlighted-source.vs .err { border: 1px solid #FF0000 } /* Error */
+.highlighted-source.vs .k { color: #0000ff } /* Keyword */
+.highlighted-source.vs .cm { color: #008000 } /* Comment.Multiline */
+.highlighted-source.vs .cp { color: #0000ff } /* Comment.Preproc */
+.highlighted-source.vs .c1 { color: #008000 } /* Comment.Single */
+.highlighted-source.vs .cs { color: #008000 } /* Comment.Special */
+.highlighted-source.vs .ge { font-style: italic } /* Generic.Emph */
+.highlighted-source.vs .gh { font-weight: bold } /* Generic.Heading */
+.highlighted-source.vs .gp { font-weight: bold } /* Generic.Prompt */
+.highlighted-source.vs .gs { font-weight: bold } /* Generic.Strong */
+.highlighted-source.vs .gu { font-weight: bold } /* Generic.Subheading */
+.highlighted-source.vs .kc { color: #0000ff } /* Keyword.Constant */
+.highlighted-source.vs .kd { color: #0000ff } /* Keyword.Declaration */
+.highlighted-source.vs .kn { color: #0000ff } /* Keyword.Namespace */
+.highlighted-source.vs .kp { color: #0000ff } /* Keyword.Pseudo */
+.highlighted-source.vs .kr { color: #0000ff } /* Keyword.Reserved */
+.highlighted-source.vs .kt { color: #2b91af } /* Keyword.Type */
+.highlighted-source.vs .s { color: #a31515 } /* Literal.String */
+.highlighted-source.vs .nc { color: #2b91af } /* Name.Class */
+.highlighted-source.vs .ow { color: #0000ff } /* Operator.Word */
+.highlighted-source.vs .sb { color: #a31515 } /* Literal.String.Backtick */
+.highlighted-source.vs .sc { color: #a31515 } /* Literal.String.Char */
+.highlighted-source.vs .sd { color: #a31515 } /* Literal.String.Doc */
+.highlighted-source.vs .s2 { color: #a31515 } /* Literal.String.Double */
+.highlighted-source.vs .se { color: #a31515 } /* Literal.String.Escape */
+.highlighted-source.vs .sh { color: #a31515 } /* Literal.String.Heredoc */
+.highlighted-source.vs .si { color: #a31515 } /* Literal.String.Interpol */
+.highlighted-source.vs .sx { color: #a31515 } /* Literal.String.Other */
+.highlighted-source.vs .sr { color: #a31515 } /* Literal.String.Regex */
+.highlighted-source.vs .s1 { color: #a31515 } /* Literal.String.Single */
+.highlighted-source.vs .ss { color: #a31515 } /* Literal.String.Symbol */

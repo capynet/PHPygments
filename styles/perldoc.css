@@ -1,0 +1,59 @@
+.highlighted-source.perldoc .hll { background-color: #ffffcc }
+.highlighted-source.perldoc  { background: #eeeedd; }
+.highlighted-source.perldoc .c { color: #228B22 } /* Comment */
+.highlighted-source.perldoc .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlighted-source.perldoc .k { color: #8B008B; font-weight: bold } /* Keyword */
+.highlighted-source.perldoc .cm { color: #228B22 } /* Comment.Multiline */
+.highlighted-source.perldoc .cp { color: #1e889b } /* Comment.Preproc */
+.highlighted-source.perldoc .c1 { color: #228B22 } /* Comment.Single */
+.highlighted-source.perldoc .cs { color: #8B008B; font-weight: bold } /* Comment.Special */
+.highlighted-source.perldoc .gd { color: #aa0000 } /* Generic.Deleted */
+.highlighted-source.perldoc .ge { font-style: italic } /* Generic.Emph */
+.highlighted-source.perldoc .gr { color: #aa0000 } /* Generic.Error */
+.highlighted-source.perldoc .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlighted-source.perldoc .gi { color: #00aa00 } /* Generic.Inserted */
+.highlighted-source.perldoc .go { color: #888888 } /* Generic.Output */
+.highlighted-source.perldoc .gp { color: #555555 } /* Generic.Prompt */
+.highlighted-source.perldoc .gs { font-weight: bold } /* Generic.Strong */
+.highlighted-source.perldoc .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlighted-source.perldoc .gt { color: #aa0000 } /* Generic.Traceback */
+.highlighted-source.perldoc .kc { color: #8B008B; font-weight: bold } /* Keyword.Constant */
+.highlighted-source.perldoc .kd { color: #8B008B; font-weight: bold } /* Keyword.Declaration */
+.highlighted-source.perldoc .kn { color: #8B008B; font-weight: bold } /* Keyword.Namespace */
+.highlighted-source.perldoc .kp { color: #8B008B; font-weight: bold } /* Keyword.Pseudo */
+.highlighted-source.perldoc .kr { color: #8B008B; font-weight: bold } /* Keyword.Reserved */
+.highlighted-source.perldoc .kt { color: #a7a7a7; font-weight: bold } /* Keyword.Type */
+.highlighted-source.perldoc .m { color: #B452CD } /* Literal.Number */
+.highlighted-source.perldoc .s { color: #CD5555 } /* Literal.String */
+.highlighted-source.perldoc .na { color: #658b00 } /* Name.Attribute */
+.highlighted-source.perldoc .nb { color: #658b00 } /* Name.Builtin */
+.highlighted-source.perldoc .nc { color: #008b45; font-weight: bold } /* Name.Class */
+.highlighted-source.perldoc .no { color: #00688B } /* Name.Constant */
+.highlighted-source.perldoc .nd { color: #707a7c } /* Name.Decorator */
+.highlighted-source.perldoc .ne { color: #008b45; font-weight: bold } /* Name.Exception */
+.highlighted-source.perldoc .nf { color: #008b45 } /* Name.Function */
+.highlighted-source.perldoc .nn { color: #008b45; text-decoration: underline } /* Name.Namespace */
+.highlighted-source.perldoc .nt { color: #8B008B; font-weight: bold } /* Name.Tag */
+.highlighted-source.perldoc .nv { color: #00688B } /* Name.Variable */
+.highlighted-source.perldoc .ow { color: #8B008B } /* Operator.Word */
+.highlighted-source.perldoc .w { color: #bbbbbb } /* Text.Whitespace */
+.highlighted-source.perldoc .mf { color: #B452CD } /* Literal.Number.Float */
+.highlighted-source.perldoc .mh { color: #B452CD } /* Literal.Number.Hex */
+.highlighted-source.perldoc .mi { color: #B452CD } /* Literal.Number.Integer */
+.highlighted-source.perldoc .mo { color: #B452CD } /* Literal.Number.Oct */
+.highlighted-source.perldoc .sb { color: #CD5555 } /* Literal.String.Backtick */
+.highlighted-source.perldoc .sc { color: #CD5555 } /* Literal.String.Char */
+.highlighted-source.perldoc .sd { color: #CD5555 } /* Literal.String.Doc */
+.highlighted-source.perldoc .s2 { color: #CD5555 } /* Literal.String.Double */
+.highlighted-source.perldoc .se { color: #CD5555 } /* Literal.String.Escape */
+.highlighted-source.perldoc .sh { color: #1c7e71; font-style: italic } /* Literal.String.Heredoc */
+.highlighted-source.perldoc .si { color: #CD5555 } /* Literal.String.Interpol */
+.highlighted-source.perldoc .sx { color: #cb6c20 } /* Literal.String.Other */
+.highlighted-source.perldoc .sr { color: #1c7e71 } /* Literal.String.Regex */
+.highlighted-source.perldoc .s1 { color: #CD5555 } /* Literal.String.Single */
+.highlighted-source.perldoc .ss { color: #CD5555 } /* Literal.String.Symbol */
+.highlighted-source.perldoc .bp { color: #658b00 } /* Name.Builtin.Pseudo */
+.highlighted-source.perldoc .vc { color: #00688B } /* Name.Variable.Class */
+.highlighted-source.perldoc .vg { color: #00688B } /* Name.Variable.Global */
+.highlighted-source.perldoc .vi { color: #00688B } /* Name.Variable.Instance */
+.highlighted-source.perldoc .il { color: #B452CD } /* Literal.Number.Integer.Long */

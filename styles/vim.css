@@ -1,0 +1,70 @@
+.highlighted-source.vim .hll { background-color: #222222 }
+.highlighted-source.vim  { background: #000000; color: #cccccc }
+.highlighted-source.vim .c { color: #000080 } /* Comment */
+.highlighted-source.vim .err { color: #cccccc; border: 1px solid #FF0000 } /* Error */
+.highlighted-source.vim .g { color: #cccccc } /* Generic */
+.highlighted-source.vim .k { color: #cdcd00 } /* Keyword */
+.highlighted-source.vim .l { color: #cccccc } /* Literal */
+.highlighted-source.vim .n { color: #cccccc } /* Name */
+.highlighted-source.vim .o { color: #3399cc } /* Operator */
+.highlighted-source.vim .x { color: #cccccc } /* Other */
+.highlighted-source.vim .p { color: #cccccc } /* Punctuation */
+.highlighted-source.vim .cm { color: #000080 } /* Comment.Multiline */
+.highlighted-source.vim .cp { color: #000080 } /* Comment.Preproc */
+.highlighted-source.vim .c1 { color: #000080 } /* Comment.Single */
+.highlighted-source.vim .cs { color: #cd0000; font-weight: bold } /* Comment.Special */
+.highlighted-source.vim .gd { color: #cd0000 } /* Generic.Deleted */
+.highlighted-source.vim .ge { color: #cccccc; font-style: italic } /* Generic.Emph */
+.highlighted-source.vim .gr { color: #FF0000 } /* Generic.Error */
+.highlighted-source.vim .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlighted-source.vim .gi { color: #00cd00 } /* Generic.Inserted */
+.highlighted-source.vim .go { color: #808080 } /* Generic.Output */
+.highlighted-source.vim .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlighted-source.vim .gs { color: #cccccc; font-weight: bold } /* Generic.Strong */
+.highlighted-source.vim .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlighted-source.vim .gt { color: #0040D0 } /* Generic.Traceback */
+.highlighted-source.vim .kc { color: #cdcd00 } /* Keyword.Constant */
+.highlighted-source.vim .kd { color: #00cd00 } /* Keyword.Declaration */
+.highlighted-source.vim .kn { color: #cd00cd } /* Keyword.Namespace */
+.highlighted-source.vim .kp { color: #cdcd00 } /* Keyword.Pseudo */
+.highlighted-source.vim .kr { color: #cdcd00 } /* Keyword.Reserved */
+.highlighted-source.vim .kt { color: #00cd00 } /* Keyword.Type */
+.highlighted-source.vim .ld { color: #cccccc } /* Literal.Date */
+.highlighted-source.vim .m { color: #cd00cd } /* Literal.Number */
+.highlighted-source.vim .s { color: #cd0000 } /* Literal.String */
+.highlighted-source.vim .na { color: #cccccc } /* Name.Attribute */
+.highlighted-source.vim .nb { color: #cd00cd } /* Name.Builtin */
+.highlighted-source.vim .nc { color: #00cdcd } /* Name.Class */
+.highlighted-source.vim .no { color: #cccccc } /* Name.Constant */
+.highlighted-source.vim .nd { color: #cccccc } /* Name.Decorator */
+.highlighted-source.vim .ni { color: #cccccc } /* Name.Entity */
+.highlighted-source.vim .ne { color: #666699; font-weight: bold } /* Name.Exception */
+.highlighted-source.vim .nf { color: #cccccc } /* Name.Function */
+.highlighted-source.vim .nl { color: #cccccc } /* Name.Label */
+.highlighted-source.vim .nn { color: #cccccc } /* Name.Namespace */
+.highlighted-source.vim .nx { color: #cccccc } /* Name.Other */
+.highlighted-source.vim .py { color: #cccccc } /* Name.Property */
+.highlighted-source.vim .nt { color: #cccccc } /* Name.Tag */
+.highlighted-source.vim .nv { color: #00cdcd } /* Name.Variable */
+.highlighted-source.vim .ow { color: #cdcd00 } /* Operator.Word */
+.highlighted-source.vim .w { color: #cccccc } /* Text.Whitespace */
+.highlighted-source.vim .mf { color: #cd00cd } /* Literal.Number.Float */
+.highlighted-source.vim .mh { color: #cd00cd } /* Literal.Number.Hex */
+.highlighted-source.vim .mi { color: #cd00cd } /* Literal.Number.Integer */
+.highlighted-source.vim .mo { color: #cd00cd } /* Literal.Number.Oct */
+.highlighted-source.vim .sb { color: #cd0000 } /* Literal.String.Backtick */
+.highlighted-source.vim .sc { color: #cd0000 } /* Literal.String.Char */
+.highlighted-source.vim .sd { color: #cd0000 } /* Literal.String.Doc */
+.highlighted-source.vim .s2 { color: #cd0000 } /* Literal.String.Double */
+.highlighted-source.vim .se { color: #cd0000 } /* Literal.String.Escape */
+.highlighted-source.vim .sh { color: #cd0000 } /* Literal.String.Heredoc */
+.highlighted-source.vim .si { color: #cd0000 } /* Literal.String.Interpol */
+.highlighted-source.vim .sx { color: #cd0000 } /* Literal.String.Other */
+.highlighted-source.vim .sr { color: #cd0000 } /* Literal.String.Regex */
+.highlighted-source.vim .s1 { color: #cd0000 } /* Literal.String.Single */
+.highlighted-source.vim .ss { color: #cd0000 } /* Literal.String.Symbol */
+.highlighted-source.vim .bp { color: #cd00cd } /* Name.Builtin.Pseudo */
+.highlighted-source.vim .vc { color: #00cdcd } /* Name.Variable.Class */
+.highlighted-source.vim .vg { color: #00cdcd } /* Name.Variable.Global */
+.highlighted-source.vim .vi { color: #00cdcd } /* Name.Variable.Instance */
+.highlighted-source.vim .il { color: #cd00cd } /* Literal.Number.Integer.Long */

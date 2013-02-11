@@ -1,0 +1,32 @@
+.highlighted-source.rrt .hll { background-color: #0000ff }
+.highlighted-source.rrt  { background: #000000; }
+.highlighted-source.rrt .c { color: #00ff00 } /* Comment */
+.highlighted-source.rrt .k { color: #ff0000 } /* Keyword */
+.highlighted-source.rrt .cm { color: #00ff00 } /* Comment.Multiline */
+.highlighted-source.rrt .cp { color: #e5e5e5 } /* Comment.Preproc */
+.highlighted-source.rrt .c1 { color: #00ff00 } /* Comment.Single */
+.highlighted-source.rrt .cs { color: #00ff00 } /* Comment.Special */
+.highlighted-source.rrt .kc { color: #ff0000 } /* Keyword.Constant */
+.highlighted-source.rrt .kd { color: #ff0000 } /* Keyword.Declaration */
+.highlighted-source.rrt .kn { color: #ff0000 } /* Keyword.Namespace */
+.highlighted-source.rrt .kp { color: #ff0000 } /* Keyword.Pseudo */
+.highlighted-source.rrt .kr { color: #ff0000 } /* Keyword.Reserved */
+.highlighted-source.rrt .kt { color: #ee82ee } /* Keyword.Type */
+.highlighted-source.rrt .s { color: #87ceeb } /* Literal.String */
+.highlighted-source.rrt .no { color: #7fffd4 } /* Name.Constant */
+.highlighted-source.rrt .nf { color: #ffff00 } /* Name.Function */
+.highlighted-source.rrt .nv { color: #eedd82 } /* Name.Variable */
+.highlighted-source.rrt .sb { color: #87ceeb } /* Literal.String.Backtick */
+.highlighted-source.rrt .sc { color: #87ceeb } /* Literal.String.Char */
+.highlighted-source.rrt .sd { color: #87ceeb } /* Literal.String.Doc */
+.highlighted-source.rrt .s2 { color: #87ceeb } /* Literal.String.Double */
+.highlighted-source.rrt .se { color: #87ceeb } /* Literal.String.Escape */
+.highlighted-source.rrt .sh { color: #87ceeb } /* Literal.String.Heredoc */
+.highlighted-source.rrt .si { color: #87ceeb } /* Literal.String.Interpol */
+.highlighted-source.rrt .sx { color: #87ceeb } /* Literal.String.Other */
+.highlighted-source.rrt .sr { color: #87ceeb } /* Literal.String.Regex */
+.highlighted-source.rrt .s1 { color: #87ceeb } /* Literal.String.Single */
+.highlighted-source.rrt .ss { color: #87ceeb } /* Literal.String.Symbol */
+.highlighted-source.rrt .vc { color: #eedd82 } /* Name.Variable.Class */
+.highlighted-source.rrt .vg { color: #eedd82 } /* Name.Variable.Global */
+.highlighted-source.rrt .vi { color: #eedd82 } /* Name.Variable.Instance */

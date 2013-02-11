@@ -1,0 +1,35 @@
+.highlighted-source.bw .hll { background-color: #ffffcc }
+.highlighted-source.bw  { background: #ffffff; }
+.highlighted-source.bw .c { font-style: italic } /* Comment */
+.highlighted-source.bw .err { border: 1px solid #FF0000 } /* Error */
+.highlighted-source.bw .k { font-weight: bold } /* Keyword */
+.highlighted-source.bw .cm { font-style: italic } /* Comment.Multiline */
+.highlighted-source.bw .c1 { font-style: italic } /* Comment.Single */
+.highlighted-source.bw .cs { font-style: italic } /* Comment.Special */
+.highlighted-source.bw .ge { font-style: italic } /* Generic.Emph */
+.highlighted-source.bw .gh { font-weight: bold } /* Generic.Heading */
+.highlighted-source.bw .gp { font-weight: bold } /* Generic.Prompt */
+.highlighted-source.bw .gs { font-weight: bold } /* Generic.Strong */
+.highlighted-source.bw .gu { font-weight: bold } /* Generic.Subheading */
+.highlighted-source.bw .kc { font-weight: bold } /* Keyword.Constant */
+.highlighted-source.bw .kd { font-weight: bold } /* Keyword.Declaration */
+.highlighted-source.bw .kn { font-weight: bold } /* Keyword.Namespace */
+.highlighted-source.bw .kr { font-weight: bold } /* Keyword.Reserved */
+.highlighted-source.bw .s { font-style: italic } /* Literal.String */
+.highlighted-source.bw .nc { font-weight: bold } /* Name.Class */
+.highlighted-source.bw .ni { font-weight: bold } /* Name.Entity */
+.highlighted-source.bw .ne { font-weight: bold } /* Name.Exception */
+.highlighted-source.bw .nn { font-weight: bold } /* Name.Namespace */
+.highlighted-source.bw .nt { font-weight: bold } /* Name.Tag */
+.highlighted-source.bw .ow { font-weight: bold } /* Operator.Word */
+.highlighted-source.bw .sb { font-style: italic } /* Literal.String.Backtick */
+.highlighted-source.bw .sc { font-style: italic } /* Literal.String.Char */
+.highlighted-source.bw .sd { font-style: italic } /* Literal.String.Doc */
+.highlighted-source.bw .s2 { font-style: italic } /* Literal.String.Double */
+.highlighted-source.bw .se { font-weight: bold; font-style: italic } /* Literal.String.Escape */
+.highlighted-source.bw .sh { font-style: italic } /* Literal.String.Heredoc */
+.highlighted-source.bw .si { font-weight: bold; font-style: italic } /* Literal.String.Interpol */
+.highlighted-source.bw .sx { font-style: italic } /* Literal.String.Other */
+.highlighted-source.bw .sr { font-style: italic } /* Literal.String.Regex */
+.highlighted-source.bw .s1 { font-style: italic } /* Literal.String.Single */
+.highlighted-source.bw .ss { font-style: italic } /* Literal.String.Symbol */
