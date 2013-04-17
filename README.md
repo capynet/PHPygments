@@ -13,6 +13,7 @@ easy_install Pygments
 That's all. Now you can download the plugin and install it in your Wordpress.
 
 ## Usage
+
 ```php
 require "../PHPygments.php";
 
@@ -27,6 +28,12 @@ foreach ($result["styles"] as $style) {
 //and print the code.
 echo $result["code"];
 ```
+##Options
+PHPygments::render($code, $language, $style)
+* `$code`: the source code to highlight
+* `$language`: Language type. see section "Languages and filetypes supported" in this doc.
+* `$style`: Color style to use (default to "default" style). see "Color styles" un this doc.
+
 ##Color styles
 These are supported color styles:
 
