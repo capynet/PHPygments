@@ -2,7 +2,7 @@
 
 /**
  * PHP connector for Pygments
- * Version: 0.1
+ * Version: 0.2
  * Author: Marcelo Iván Tosco (Capy)
  * Author URI: http://ecapy.com/
  * License: GPL v3
@@ -10,7 +10,7 @@
 class PHPygments {
 
   /**
-   * Sends code to highlight to pygments across using "bind.py" and returns the result
+   * Sends code to be highlighted by pygments through "bind.py" and returns the result
    * @param $code
    * @param $language
    * @param string $style
@@ -54,6 +54,5 @@ class PHPygments {
     );
 
   }
-
 
 }
