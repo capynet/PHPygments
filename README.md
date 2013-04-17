@@ -14,11 +14,13 @@ That's all. Now you can download the plugin and install it in your Wordpress.
 
 ## Usage
 ```php
+require "../PHPygments.php";
+
 $code = file_get_contents("test.js");
 $result = PHPygments::render($code, "js");
 
 //Load CSS for this highlighted code
-foreach ($result["styles"] as $style]){
+foreach ($result["styles"] as $style) {
   print '<link href="' . $style . '" media="all" rel="stylesheet" type="text/css" />';
 }
 
