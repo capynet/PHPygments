@@ -18,7 +18,7 @@ class PHPygments {
    * @param string $code source code to highlight
    * @param string $language the programing language you want highlight
    * @param string $style the color schema (Se readme.md)
-   * @param string $linenumbers
+   * @param bool $linenumbers
    * @return array "code" the processed code "styles" a reference of css needed files.
    */
   static function render($code, $language, $style = "default", $linenumbers = FALSE) {

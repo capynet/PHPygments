@@ -2,7 +2,7 @@
     "name": "PHPygments/PHPygments",
     "type": "library",
     "description": "Syntax highlighter bridge for pygments",
-    "homepage": "http://symfony.com",
+    "homepage": "https://github.com/capy/PHPygments",
     "keywords": ["Syntax highlighter", "highlighter"],
     "license": "MIT",
     "authors": [
