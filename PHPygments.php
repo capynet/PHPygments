@@ -17,8 +17,9 @@ class PHPygments {
    * @param string $linenumbers
    * @return array "code" the processed code "styles" a reference of css needed files.
    */
-  static function render($code, $language, $style = "default", $linenumbers = "False") {
+  static function render($code, $language, $style = "default", $linenumbers = FALSE) {
 
+    $linenumbers = $linenumbers ? "True" : "False";
     $pygments_bind_app = "python " . dirname(__FILE__) . "/bind.py";
 
     // Create a temporary file as bridge for code...
