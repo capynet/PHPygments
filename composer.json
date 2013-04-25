@@ -1,0 +1,24 @@
+{
+    "name": "PHPygments/PHPygments",
+    "type": "library",
+    "description": "Syntax highlighter bridge for pygments",
+    "homepage": "http://symfony.com",
+    "keywords": ["Syntax highlighter", "highlighter"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Capy - Marcelo Tosco",
+            "email": "capy.net@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "psr-0": {
+                "PHPygments": "./"
+            }
+        }
+    }
+}
