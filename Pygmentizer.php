@@ -1,5 +1,10 @@
 <?php
 
+namespace PHPygments;
+/**
+ * Class Pygmentizer
+ * @package PHPygments
+ */
 class Pygmentizer {
 
   //Available languages

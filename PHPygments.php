@@ -1,11 +1,15 @@
 <?php
 
+namespace PHPygments;
 /**
  * PHP connector for Pygments
- * Version: 0.2
- * Author: Marcelo Iván Tosco (Capy)
+ *
+ * Class PHPygments
+ * Version: 0.3
+ * Author: Capy - Marcelo Tosco
  * Author URI: http://ecapy.com/
- * License: GPL v3
+ * License: MIT
+ * @package PHPygments
  */
 class PHPygments {
 
