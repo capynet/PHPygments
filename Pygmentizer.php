@@ -97,6 +97,8 @@ class Pygmentizer {
     "pastie",
     "friendly",
     "native",
+    "solarized-light",
+    "solarized-dark"
   );
 
   /** @var $pygmentParams array Pygments default params */
