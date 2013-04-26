@@ -1,5 +1,5 @@
 {
-    "name": "PHPygments/PHPygments",
+    "name": "phpygments/phpygments",
     "type": "library",
     "description": "Syntax highlighter bridge for pygments",
     "homepage": "https://github.com/capy/PHPygments",
