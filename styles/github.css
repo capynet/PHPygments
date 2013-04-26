@@ -1,5 +1,5 @@
 /* style from github.com */
-.highlighted-source.github .hll{background:#fff;}
+.highlighted-source.github {background:#fff;}
 .highlighted-source.github .c{color:#998;font-style:italic;}
 .highlighted-source.github .err{color:#a61717;background-color:#e3d2d2;}
 .highlighted-source.github .k{font-weight:bold;}

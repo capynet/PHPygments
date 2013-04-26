@@ -1,5 +1,5 @@
 .highlighted-source.solarized-light .hll { background-color: #fdf6e3; }
-.highlighted-source.solarized-light .highlight { background-color: #fdf6e3; }
+.highlighted-source.solarized-light  { background-color: #fdf6e3; }
 .highlighted-source.solarized-light .c { color: #586E75; } /* Comment */
 .highlighted-source.solarized-light .err { color: #dc322f; } /* Error */
 .highlighted-source.solarized-light .g { color: #93A1A1; } /* Generic */

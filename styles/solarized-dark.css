@@ -1,5 +1,6 @@
+
 .highlighted-source.solarized-dark .hll { background-color: #000000; }
-.highlighted-source.solarized-dark .highlight { background-color: #002b36; }
+.highlighted-source.solarized-dark  { background-color: #002b36; }
 .highlighted-source.solarized-dark .c { color: #586E75; } /* Comment */
 .highlighted-source.solarized-dark .err { color: #93A1A1; } /* Error */
 .highlighted-source.solarized-dark .g { color: #93A1A1; } /* Generic */
