@@ -77,6 +77,7 @@ class Pygmentizer {
   );
 
   private $styles = array(
+    "github",
     "monokai",
     "manni",
     "rrt",
@@ -104,6 +105,11 @@ class Pygmentizer {
     'style' => "default",
     'linenumbers' => FALSE,
   );
+
+  function __construct($defaultStyle = "default", $defaultLinenumbers = FALSE) {
+    $this->pygmentParams["style"] = $defaultStyle;
+    $this->pygmentParams["linenumbers"] = $defaultLinenumbers;
+  }
 
   /**
    * Convert all shortcodes like [javascript][/javascript]
