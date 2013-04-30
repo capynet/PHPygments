@@ -20,7 +20,7 @@ from pygments.formatters import HtmlFormatter
 
 #prevent errors
 args.linenumbers = args.linenumbers if args.linenumbers == "table" or args.linenumbers == "inline" else False
-cssclass = CSSCLASS_BASE + ' ' + args.style + ' ' + args.lang
+cssclass = CSSCLASS_BASE + ' ' + args.style + ' ' + args.lang.replace("+", "-")
 cssclass = cssclass + " " if args.linenumbers is not False else cssclass
 
 code = open(args.sourcefile).read()

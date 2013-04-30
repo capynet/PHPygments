@@ -10,6 +10,7 @@ class Pygmentizer {
   //Available languages
   private $shortcuts = array(
     //General
+    "code" => "text",
     "apacheconf" => "apacheconf",
     "bash" => "bash",
     "ini" => "ini",
@@ -102,7 +103,7 @@ class Pygmentizer {
   );
 
   /** @var $pygmentParams array Pygments default params */
-  private $pygmentParams = array(
+  public $pygmentParams = array(
     'lang' => "text",
     'style' => "default",
     'linenumbers' => FALSE,
@@ -128,12 +129,15 @@ class Pygmentizer {
 
       $pattern = $this->getShortcodeRegex(array($shortcut));
 
+      //workarround for closures
+      $self = $this;
+
       $text = preg_replace_callback("/$pattern/s",
-        function ($matches) {
+        function ($matches) use (&$self, $lang) {
 
           //Extract and set defaults
-          $attrs = $this->extractAtts($matches[3]) + $this->pygmentParams;
-          $attrs['lang'] = $matches[2];
+          $attrs = $self->extractAtts($matches[3]) + $self->pygmentParams;
+          $attrs['lang'] = $lang;
 
           $atributtes = "";
           foreach ($attrs as $attribute => $data) {
@@ -256,7 +260,7 @@ class Pygmentizer {
    * @return array
    *  array list of found attrs
    */
-  protected function extractAtts($string) {
+  public function extractAtts($string) {
     $atts = array();
     $pattern = '/(\w+)\s*=\s*"([^"]*)"(?:\s|$)|(\w+)\s*=\s*\'([^\']*)\'(?:\s|$)|(\w+)\s*=\s*([^\s\'"]+)(?:\s|$)|"([^"]*)"(?:\s|$)|(\S+)(?:\s|$)/';
     $string = preg_replace("/[\x{00a0}\x{200b}]+/u", " ", $string);
@@ -288,6 +292,10 @@ class Pygmentizer {
 
   public function getStyles() {
     return $this->styles;
+  }
+
+  public function getShortcuts() {
+    return $this->shortcuts;
   }
 
 
