@@ -63,6 +63,7 @@ class Pygmentizer {
     "jsdjango" => "js+django",
     "jsjinja" => "js+jinja",
     //Java
+    "clojure" => "clojure",
     "java" => "java",
     "groovy" => "groovy",
     "jsp" => "jsp",

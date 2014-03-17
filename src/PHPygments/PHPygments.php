@@ -5,7 +5,7 @@ namespace PHPygments;
  * PHP connector for Pygments
  *
  * Class PHPygments
- * Version: 0.3
+ * Version: 1.0.2
  * Author: Capy - Marcelo Tosco
  * Author URI: http://ecapy.com/
  * License: MIT
@@ -14,16 +14,18 @@ namespace PHPygments;
 class PHPygments {
 
   /**
-   * Sends code to be highlighted by pygments through "bind.py" and returns the result
+   * Sends code to be highlighted by pygments through "bind.py" and returns the result.
+   *
    * @param string $code source code to highlight
    * @param string $language the programing language you want highlight
    * @param string $style the color schema (Se readme.md)
    * @param bool $linenumbers
+   *
    * @return array "code" the processed code "styles" a reference of css needed files.
    */
   static function render($code, $language, $style = "default", $linenumbers = FALSE) {
 
-    $linenumbers = $linenumbers ? "True" : "False";
+    $linenumbers = ($linenumbers !== FALSE) ? $linenumbers : "False";
     $pygments_bind_app = "python " . dirname(__FILE__) . "/bind.py";
 
     // Create a temporary file as bridge for code...

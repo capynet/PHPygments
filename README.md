@@ -29,10 +29,48 @@ foreach ($result["styles"] as $style) {
 echo $result["code"];
 ```
 ##Options
-PHPygments::render($code, $language, $style)
+PHPygments::render($code, $language, $style, $linenumbers)
 * `$code`: the source code to highlight
 * `$language`: Language type. see section "Languages and filetypes supported" in this doc.
 * `$style`: Color style to use (default to "default" style). see "Color styles" un this doc.
+* `$linenumbers`: `inline` or `table`, the line numbers will be added as independent table column or as part of the line.
+
+
+## Examples
+```
+[javascript]
+//comment line
+var foo = "foo";
+var bar = function(){
+	var baz;
+}
+[/javascript]
+```
+
+Outputs highlighted js with **default** style, and **no** line numbers.
+
+```
+[javascript style="monokai" linenumbers="inline"]
+//comment line
+var foo = "foo";
+var bar = function(){
+	var baz;
+}
+[/javascript]
+```
+Outputs highlighted js with **monokai** style with line numbers (as part of the line).
+
+
+```
+[javascript style="monokai" linenumbers="table"]
+//comment line
+var foo = "foo";
+var bar = function(){
+	var baz;
+}
+[/javascript]
+```
+Outputs highlighted js with **monokai** style with line numbers (as new column).
 
 ##Color styles
 These are supported color styles:
@@ -169,9 +207,11 @@ NOTE: to use see "Usage" section
 * `htmldjango`, `htmljinja`: Django/Jinja embedded in HTML
 * `jsdjango`, `jsjinja`: Django/Jinja embedded in Javascript
 
-#####Java & Groovy
+#####Java && family
 * `java`:
     Java (*.java)
+* `clojure`:
+    clojure (*.clj)
 * `groovy`:
     Groovy (*.groovy)
 * `jsp`:
