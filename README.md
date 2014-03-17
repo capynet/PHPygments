@@ -10,7 +10,7 @@ sudo apt-get install python-setuptools
 easy_install Pygments
 ```
 
-That's all. Now you can download the plugin and install it in your Wordpress.
+That's all. Now you can download the plugin via Composer or as independent library and use it.
 
 ## Usage
 
