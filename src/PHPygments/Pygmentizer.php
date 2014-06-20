@@ -76,6 +76,7 @@ class Pygmentizer {
     //XML
     "xml" => "xml",
     "xslt" => "xslt",
+    "rest" => "rest",
   );
 
   private $styles = array(
