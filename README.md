@@ -28,7 +28,7 @@ foreach ($result["styles"] as $style) {
 //and print the code.
 echo $result["code"];
 ```
-##Options
+## Options
 PHPygments::render($code, $language, $style, $linenumbers)
 * `$code`: the source code to highlight
 * `$language`: Language type. see section "Languages and filetypes supported" in this doc.
@@ -72,7 +72,7 @@ var bar = function(){
 ```
 Outputs highlighted js with **monokai** style with line numbers (as new column).
 
-##Color styles
+## Color styles
 These are supported color styles:
 
 * `monokai`<br>
@@ -133,13 +133,13 @@ These are supported color styles:
 ![monokai example](Documentation/img/style__0000_Layer-1.png "")
 
 
-##Languages and filetypes supported
+## Languages and filetypes supported
 
 Pygments not only highlights languages. also highlights filetypes like .conf **Nginx** configuration file, **Apache** (filenames .htaccess, apache.conf, apache2.conf), etc.
 
 NOTE: to use see "Usage" section
 
-#####General
+##### General
 * `apacheconf`: (.htaccess, apache.conf, apache2.conf)
 * `bash`, `sh`, `ksh`:
     (*.sh, *.ksh, *.bash, *.ebuild, *.eclass, .bashrc, bashrc)
@@ -157,24 +157,24 @@ NOTE: to use see "Usage" section
 * `console`:
     Bash Session (*.sh-session)
 
-#####Javascript
+##### Javascript
 * `javascript`: Pure Javascript
 * `coffeescript`: Pure CoffeeScript
 * `json`: Pure JSON
 
-#####PHP
+##### PHP
 * `cssphp`: PHP embedded in CSS
 * `htmlphp`: PHP embedded in HTML
 * `jsphp`: PHP embedded in JS
 * `php`: Pure PHP
 * `xmlphp`: PHP embedded in XML
 
-#####Ruby
+##### Ruby
 * `ruby`, `duby`: Ruby (*.rb, *.rbw, *.rake, *.gemspec, *.rbx, *.duby)
 * `csserb`, `cssruby`: Ruby embedded in CSS
 * `xmlerb`, `xmlruby`: Ruby embedded in XML
 
-#####CSS and CSS compilers
+##### CSS and CSS compilers
 * `css`:
     CSS (*.css)
 * `sass`:
@@ -182,7 +182,7 @@ NOTE: to use see "Usage" section
 * `scss`:
     SCSS (*.scss)
 
-#####HTML and HTML template systems
+##### HTML and HTML template systems
 * `html`:
     HTML (*.html, *.htm, *.xhtml, *.xslt)
 * `haml`:
@@ -190,7 +190,7 @@ NOTE: to use see "Usage" section
 * `jade`:
     Jade (*.jade)
 
-#####SQL
+##### SQL
 * `sql`:
     SQL (*.sql)
 * `sqlite3`:
@@ -198,7 +198,7 @@ NOTE: to use see "Usage" section
 * `mysql`:
     MySQL
 
-#####Python, jinja & Django
+##### Python, jinja & Django
 * `python`: Pure Python
 * `python3`: Pure Python 3
 * `xmldjango`, `xmljinja`: Django/Jinja embedded in XML
@@ -207,7 +207,7 @@ NOTE: to use see "Usage" section
 * `htmldjango`, `htmljinja`: Django/Jinja embedded in HTML
 * `jsdjango`, `jsjinja`: Django/Jinja embedded in Javascript
 
-#####Java && family
+##### Java && family
 * `java`:
     Java (*.java)
 * `clojure`:
@@ -217,13 +217,13 @@ NOTE: to use see "Usage" section
 * `jsp`:
     Java Server Page (*.jsp)
 
-#####C, C++, Objetive-c, C Sharp
+##### C, C++, Objetive-c, C Sharp
 * `cobjdump`: c-objdump (*.c-objdump)
 * `c`: C (*.c, *.h, *.idc)
 * `cpp`: C++ (*.cpp, *.hpp, *.c++, *.h++, *.cc, *.hh, *.cxx, *.hxx)
 * `csharp`: C# (*.cs)
 * `objectivec`: (*.m)
 
-#####XML
+##### XML
 * `xml`: (*.xml, *.xsl, *.rss, *.xslt, *.xsd, *.wsdl)
 * `xslt`: (*.xsl, *.xslt)
